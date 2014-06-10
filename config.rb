@@ -1,4 +1,4 @@
-REGION_LIST = Hash.new
+REGION_LIST = Hash.new("ap-northeast-1")
 REGION_LIST.store(1,"ap-northeast-1")
 REGION_LIST.store(2,"ap-southeast-1")
 REGION_LIST.store(3,"ap-southeast-2")
@@ -8,7 +8,7 @@ REGION_LIST.store(6,"us-east-1")
 REGION_LIST.store(7,"us-west-1")
 REGION_LIST.store(8,"us-west-2")
 
-INSTANCE_LIST = Hash.new
+INSTANCE_LIST = Hash.new("t1.micro")
 INSTANCE_LIST.store(1,"t1.micro")
 INSTANCE_LIST.store(2,"m1.small")
 INSTANCE_LIST.store(3,"m3.medium")
