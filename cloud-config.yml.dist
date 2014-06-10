@@ -2,7 +2,7 @@
 coreos: 
   etcd: 
     discovery: "https://discovery.etcd.io/TOKEN"
-    addr: "$public_ipv4:4001"
+    addr: "$private_ipv4:4001"
     peer-addr: "$private_ipv4:7001"
   units: 
     - command: start
