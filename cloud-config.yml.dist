@@ -11,6 +11,3 @@ coreos:
       name: fleet.service
     - command: start
       name: docker.service
-users: 
-  - name: core
-    coreos-ssh-import-github: smokeymonkey
